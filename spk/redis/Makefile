@@ -1,6 +1,6 @@
 SPK_NAME = redis
-SPK_VERS = 3.0.5
-SPK_REV = 5
+SPK_VERS = 3.2.3
+SPK_REV = 6
 SPK_ICON = src/redis.png
 
 DEPENDS = cross/busybox cross/$(SPK_NAME)
@@ -9,7 +9,7 @@ MAINTAINER = Diaoul
 DESCRIPTION = Redis is an open source, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets.
 RELOAD_UI = yes
 DISPLAY_NAME = Redis
-CHANGELOG = "Update to 3.0.5"
+CHANGELOG = "Update to 3.2.3"
 
 HOMEPAGE = http://redis.io
 LICENSE  = 3-clause BSD

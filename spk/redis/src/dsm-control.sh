@@ -16,7 +16,7 @@ CFG_FILE="${INSTALL_DIR}/var/redis.conf"
 
 start_daemon ()
 {
-    su ${USER} -c "${REDIS} ${CFG_FILE}"
+    sudo -u ${USER} /bin/sh -c "${REDIS} ${CFG_FILE}"
 }
 
 stop_daemon ()
